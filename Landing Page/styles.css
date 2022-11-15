@@ -1,0 +1,106 @@
+*{
+box-sizing: border-box;
+line-height: 1.5rem;
+padding: 0;
+margin: 0;
+background-color: #eee;
+}
+#header{
+flex-direction: row;
+display: flex;
+padding-top: 2rem;
+position: fixed;
+}
+#header-img{width: 20rem;
+    padding-top: 0.1rem;
+}
+.nav-link{text-decoration: none;
+    color: black;
+}
+.address{padding: 1.5rem;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.hand{padding-bottom: 1.5rem;}
+.get{padding-top: 1.5rem;}
+#form{text-align: center;
+font-size: 30px;
+padding-bottom: 0;}
+#email{width: 300px;
+    border-radius: 5px;
+    font-size: 17px;    
+}
+#submit{width: auto;
+background-color: #e2ca6b;
+border-radius: 5px;
+font-weight: bold;
+font-size: 20px;
+}
+.field{text-align: center;
+font-weight: bold;
+font-size: 20px;
+}
+p{text-align: center;
+}
+fieldset{display: inline-block;
+padding: 2em;
+margin: 1rem;
+padding-top: 0.5em;
+background-color:  #eee;
+}
+.pok{border-radius: 3px;}
+#Pricing{padding: 1em;
+margin-left: 300px;
+}
+#feat{padding-left:150px;
+font-size: 25px;
+}
+#work{padding-left:250px;
+    font-size: 25px;}
+#price{padding-left:300px;
+    font-size: 25px;}
+#video{padding-left: 500px;
+padding-top: 100px;
+padding-bottom: 50px;
+height: 500px;
+width: 1000px;}
+.lastok{background-color: #eee;
+width:60%;
+margin-left: 300px;
+text-align: right;
+word-spacing: 1rem;
+font-size: 18px;
+padding-bottom: 0;
+border-color: gray;
+background-color: gray;
+border-radius: 3px;}
+.ft{text-align: right;
+padding-top: 1rem;
+background-color: gray;}
+#nav-bar2{background-color: gray;}
+#last{background-color: gray;}
+#Features{flex-direction: row;
+display: flex;
+padding-left: 200px;}
+#truck{flex-direction: row;
+    display: flex;
+    padding-left: 200px;}
+#battery{flex-direction: row;
+    display: flex;
+    padding-left: 200px;}
+.container{font-size:20px;
+padding-left: 6rem;}
+.headerlogo{padding-left: 100px;
+padding-bottom: 0;
+padding-top: 2rem;}
+.para{font-size: 20px;
+font-style: initial;
+font-weight: 100;
+padding-left:350px;
+padding-top: 0;
+padding-bottom: 100px;}
+@media screen {.logo
+    {padding-top: 2.5rem;
+    } 
+    .logo{color:rgb(207, 147, 18);}  
+}

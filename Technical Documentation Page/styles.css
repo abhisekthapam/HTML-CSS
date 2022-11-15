@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    line-height: 1.5;
+    }
+
+header{color: black;
+font-size: 30px;
+font-weight: thin;}
+
+code{
+    font-family: monospace;
+    background-color: rgb(247, 240, 230);
+    line-height: 2;
+    display: block;
+    border-radius: 5px;
+}
+
+#navbar{
+    width:20%;
+height:100vh;
+position: fixed;}
+
+#main-doc{width: 98%;
+height: 100vh;
+}
+
+@media (max-width:600) {
+    
+}
+ 
+.nav-link{
+    display: block;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+#js{border-top: 1px solid;
+    border-right: 1px solid;
+    font-weight: 35px;
+text-align: center;}
+
+.main-section{margin-left: 325px;
+padding: 20px;
+padding-top:10px;
+}
+
+.ul{margin-left: 50px;}
